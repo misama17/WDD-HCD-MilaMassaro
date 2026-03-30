@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* FONT */
+section {
+    font-family: sans-serif;
+}
+
+button {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+
+    border-radius: 2em;
+    font-size: 1.25rem;
+    border: none;
+    padding: .5em 1em;
+    background-color: white;
+    color: black;
+
+    &:hover {
+        background-color: pink;
+    }
+
+    /* Focus zichtbaar maken (ChatGPT) */
+    &:focus {
+        outline: 3px solid #fff;
+        outline-offset: 2px;
+    }
+}
+
+
+main > section:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: 1fr 70vw 1fr;
+    grid-template-rows: 1fr 50svh 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 100svh;
+    width: 100vw;
+
+    background-color: rgb(255, 105, 180);
+}
+
+section section {
+    display: grid;
+    grid-area: 2/2;
+    gap: 1em;
+
+    & h1 { 
+        font-size: 3rem;
+    }
+
+    & p {
+        &:nth-of-type(1) {
+            font-style: italic;
+        }
+
+        &:nth-of-type(2) {
+            font-size: 1.5rem;
+            margin: 2em 0;
+        }
+    }
+}
