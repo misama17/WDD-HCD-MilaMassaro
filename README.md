@@ -6,7 +6,7 @@ Link naar mijn Notion: https://www.notion.so/Minor-Webdesign-Development-2fd4a28
 
 ## WEEK 1
 
-**maandag 16 feb**
+**maandag 30 maart**
 
 Wat heb ik vandaag gedaan?
 
