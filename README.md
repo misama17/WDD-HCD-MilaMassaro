@@ -44,9 +44,8 @@ _Check-out met Choice. Zij heeft Darice. Ze heeft eigenlijk een klein beetje een
 **Eerste prototype:** 
 https://codepen.io/misama17/pen/bNwMQww
 
-<img width="1676" height="954" alt="Scherm­afbeelding 2026-04-02 om 12 32 53" src="https://github.com/user-attachments/assets/fe473aad-66a2-4e57-b037-62e3a2238d9c" />
 <img width="1676" height="953" alt="Scherm­afbeelding 2026-04-02 om 12 32 42" src="https://github.com/user-attachments/assets/758a95c0-a560-4d07-b9f2-225bcbb66430" />
-
+<img width="1676" height="954" alt="Scherm­afbeelding 2026-04-02 om 12 32 53" src="https://github.com/user-attachments/assets/fe473aad-66a2-4e57-b037-62e3a2238d9c" />
 
 
 **Samenvattend wat belangrijk is voor mij**
