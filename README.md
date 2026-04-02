@@ -40,6 +40,15 @@ _Check-out met Choice. Zij heeft Darice. Ze heeft eigenlijk een klein beetje een
 
 
 ### TESTMOMENT
+
+**Eerste prototype:** 
+https://codepen.io/misama17/pen/bNwMQww
+
+<img width="1676" height="954" alt="Scherm­afbeelding 2026-04-02 om 12 32 53" src="https://github.com/user-attachments/assets/fe473aad-66a2-4e57-b037-62e3a2238d9c" />
+<img width="1676" height="953" alt="Scherm­afbeelding 2026-04-02 om 12 32 42" src="https://github.com/user-attachments/assets/758a95c0-a560-4d07-b9f2-225bcbb66430" />
+
+
+
 **Samenvattend wat belangrijk is voor mij**
 
 Bij veel websites hoeft hij niet echt een sfeer van de site te krijgen. Eigenlijk alleen bij websites waar je voor je plezier komt. Momenteel wordt de sfeer van een website niet echt overgebracht, omdat de stem van een screenreader heel eentonig is en bijvoorbeeld visuele elementen zoals plaatjes niet voldoende omschreven worden. Screenreader is ook text to speech, dus als er dan al een sfeer impressie wordt gegeven, dan is dit echt op basis van tekst (de manier van schrijven, woordgrappen etc.). Bij social media, zoals Instagram, zou hij wel graag een sfeer impressie willen krijgen. Dan is het niet zo zeer van de app of website zelf in zijn geheel, maar meer van de content. Dus als er een foto gepost wordt, dan zou het leuk zijn als hier bijvoorbeeld een goede omschrijving van is. Ook de caption kan relevant zijn. Omdat je op social media komt omdat je geïnteresseerd bent in iemands leven, is het nu jammer dat je eigenlijk totaal geen idee hebt wat er gepost wordt, welke sfeer etc. Hier zouden dan ook kansen kunnen liggen. Ook bij shoppen van kleding of producten zou een sfeerimpressie relevant kunnen zijn. Twee dingen die bijdragen aan het krijgen van een goed beeld (van de sfeer) van een website zijn lay-out en plaatjes. Onder lay-out vallen dingen als: kleur, lay-out tekst, bold etc, spreekt tekst op bepaalde manier naar je, visuele elementen, patronen, iconen… 
