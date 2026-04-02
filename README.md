@@ -2,6 +2,7 @@
 
 
 Link naar mijn Notion: https://www.notion.so/Minor-Webdesign-Development-2fd4a28d1c2c8004a247e9f0794a6be0?source=copy_link 
+
 Link naar aantekeningen van mijn testmomenten: https://www.notion.so/Testen-met-Ihab-3344a28d1c2c8098b59ad8e97de0a952?source=copy_link
 
 
