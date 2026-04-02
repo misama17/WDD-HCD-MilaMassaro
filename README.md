@@ -48,7 +48,8 @@ Het is heel erg belangrijk dat (als je een extensie hebt bijv.) het on command i
 
 Een belangrijke vraag is echter wel wat “sfeer” is. Wat versta je onder sfeer? Sfeer is een abstract begrip, afhankelijk van de context en ook persoonsgebonden. Wat voor mij blij is, hoeft voor een ander niet per se zo te zijn. Hoe zorg je er dan voor dat de interpretatie klopt voor iedereen?
 
-_Zie verdere aantekeningen van mijn testmomenten in mijn Notion. De link is bovenaan te vinden_
+_Zie verdere aantekeningen van mijn testmomenten in mijn Notion. De link is bovenaan te vinden._
+
 
 
 **dinsdag 31 maart**
@@ -78,3 +79,14 @@ Dat eigenlijk al best veel wat betreft navigatie geavanceerd is op screenreaders
 Wat ga ik morgen doen?
 
 Morgen is een nieuw vak API, dus kick-off daarvan en werken aan opdracht verwacht ik.
+
+
+
+### VOORTGANGSGESPREKKEN AANTEKENINGEN
+
+- Welke aannames had je voor de eerste test en hoe zijn die veranderd?
+- Je moet bij de testen echt gaan vissen naar informatie. Vragen wil je A of wil je B, is niet voldoende om de informatie te krijgen die je wilt.
+- 
+
+
+
