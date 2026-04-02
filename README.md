@@ -84,9 +84,22 @@ Morgen is een nieuw vak API, dus kick-off daarvan en werken aan opdracht verwach
 
 ### VOORTGANGSGESPREKKEN AANTEKENINGEN
 
+**Medestudenten**
+
 - Welke aannames had je voor de eerste test en hoe zijn die veranderd?
 - Je moet bij de testen echt gaan vissen naar informatie. Vragen wil je A of wil je B, is niet voldoende om de informatie te krijgen die je wilt.
-- 
+- Je moet wel iets maken dat je zelf ook leuk vindt.
+- Volgende test meer de diepte in. Wat wil ik van hem nog weten? Waar ben ik onzeker over?
+- Je kan ook tijdens de test kunnen zeggen van zou jij misschien naar deze of deze site kunnen gaan? en dan kijken hoe hij daarmee omgaat. Dit kan ook hele waardevolle zijn. 
+
+
+**Eigen feedback**
+
+- Heel goed hoe je zelf verder onderzoek hebt gedaan en dit heb gedocumenteerd.
+- Ik zat eraan te denken om een API te gebruiken om AI een image/foto te laten interpreteren en een beschrijvende (uitgebreide) tekst te laten schrijven. Maar, zeker voor de eerste vervolgstap, werd dat wel een beetje afgeraden. Omdat je geen controle hebt over AI. Dus dan zou je misschien meer tijd kwijt zijn aan het controleren van de beschrijvende tekst. Uiteindelijk is het een prototype en is het belangrijk dat wat je maakt waterdicht is. Als je zelf de tekst voor afbeeldingen schrijft is, dan heb je daar controle over.
+- Het is verstandig om te focussen op een specifiek ding en het dan uit te breiden. Ik wil me echt gaan focussen op content op instagram. Dus ik wil me niet bezighouden met de navigatie en de basis van de app (in eerste instantie in ieder geval), maar echt op de foto's die gepost worden.
+
+
 
 
 
