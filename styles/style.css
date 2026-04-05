@@ -15,9 +15,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3em;
+    padding: 2.5em;
     justify-content: center;
     align-items: center;
-    height: 100svh;
 }
 
 h1 {
@@ -27,6 +27,7 @@ h1 {
 
 .post-container {
     height: 70svh;
+    min-height: 700px;
     width: 70vw;
     max-width: 550px;
     min-width: 350px;
@@ -124,7 +125,8 @@ h1 {
 .caption {
     grid-area: caption;
     display: flex;
-    align-items: center;
+    align-items: start;
+    margin-top: 1em;
     gap: .75em;
 }
 
