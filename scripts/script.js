@@ -4,8 +4,13 @@ const audioButton = document.querySelector(".play-audio");
 // AUDIO FILES
 const audioTest = new Audio("./audios/test-audio.mp3");
 
+
+
 audioButton.addEventListener("click", playAudioAnalysis);
 
+
+
+// MARK: Functions
 function playAudioAnalysis() {
     if (audioTest.paused) {
         audioTest.play();
