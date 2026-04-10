@@ -92,6 +92,16 @@ Wat ga ik morgen doen?
 Morgen is een nieuw vak API, dus kick-off daarvan en werken aan opdracht verwacht ik.
 
 
+### TESTMOMENT
+
+https://codepen.io/misama17/pen/MYjPrKo
+
+(audio werkt hier niet)
+
+<img width="1391" height="849" alt="Scherm­afbeelding 2026-04-10 om 14 53 26" src="https://github.com/user-attachments/assets/ed2e4056-c434-40b1-a319-6010fce3e67e" />
+
+
+
 
 ### VOORTGANGSGESPREKKEN AANTEKENINGEN
 
