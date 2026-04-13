@@ -92,6 +92,16 @@ Wat ga ik morgen doen?
 Morgen is een nieuw vak API, dus kick-off daarvan en werken aan opdracht verwacht ik.
 
 
+### TESTMOMENT
+
+https://codepen.io/misama17/pen/MYjPrKo
+
+(audio werkt hier niet)
+
+<img width="1391" height="849" alt="Scherm­afbeelding 2026-04-10 om 14 53 26" src="https://github.com/user-attachments/assets/ed2e4056-c434-40b1-a319-6010fce3e67e" />
+
+
+
 
 ### VOORTGANGSGESPREKKEN AANTEKENINGEN
 
@@ -112,5 +122,49 @@ Morgen is een nieuw vak API, dus kick-off daarvan en werken aan opdracht verwach
 
 
 
+**dinsdag 7 april**
+
+Wat heb ik vandaag gedaan?
+
+In de ochtend hadden we de Weekly Geek quiz. Ik vond het een beetje lastig om voor de geest te halen wat ik ook alweer precies gelezen had. Ik had eigenlijk even de avond ervoor nog eens door moeten nemen. Maar eigenlijk kon ik alle vragen best goed beantwoorden, dus dat was fijn.
+In de ochtend had ik daarna om 10:30 mijn testmoment met Ihab. Voor de test heb ik nog wat extra verdiepingsvragen gesteld. De test ging best wel goed en hij was heel positief over mijn concept, wat fijn was. Hij maakte zich vooral zorgen over hoe het in de praktijk uiteindelijk zou gaan werken. Ik heb verder nog wat feedback gehad _(zie aantekeningen Notion)_. 
+Na de test heb ik samengevat wat goed is voor mij om te onthouden en mee te nemen. Verder heb ik nog verder onderzoek gedaan, waarbij ik best wel de verdieping in ben gegaan.
+
+
+Hoeveel tijd heeft dit me gekost?
+
+4 uur.
+45 min Weekly Geek.
+30 min vragen verder voorbereiden.
+2 uur testen met Ihab.
+1,5 uur test uitwerken en verder onderzoek doen.
+
+Ik had afgelopen vrijdag (3 april) mijn prototype voor de test uitgewerkt. Dit kostte me 3 uur ongeveer (concept uitwerken, schetsen, website maken).
+
+
+Wat heb ik geleerd?
+
+Hoe gecompliceerd het is. Eigenlijk heb je zo'n verantwoordelijkheid als ontwerper en zeker bij mijn concept. Je bent verantwoordelijk voor hoe iemand die niet kan zien een foto ervaart. En iedereen zou het anders omschrijven, dus wat is nou het "beste"? Wat wilt de persoon weten over de foto? Hoe zorg je ervoor dat emotie en sfeer overkomen? Geef ik mijn interpretatie en heeft die persoon daar wat aan?...
+
+
+Wat ga ik morgen doen?
+
+API.
+
+
+
+### VOORTGANGSGESPREKKEN AANTEKENINGEN
+
+**Medestudenten**
+
+- Probeer eens iets heel extreem te doen, helemaal uitvergroot en kijk wat dat oplevert.
+- Bij testen kan je ook laten testen op 1 klein onderdeel van je prototype, zodat je daar de antwoorden van krijgt.
+
+
+**Eigen feedback**
+
+- Heel interessant concept en goed hoe diep je erover nadenkt.
+- Misschien voor volgende test: geef twee opties met audio omschrijving en kijk welke hij prettiger vindt. Beetje outside the box testen, niet alleen prototype.
+- Misschien: optie bieden dat ze zelf binnen de verdieping zich ook weer verder en verder kunnen verdiepen, zo ver ze zelf willen.
 
 
