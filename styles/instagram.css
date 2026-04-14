@@ -203,7 +203,7 @@ header nav {
     }
 }
 
-
+/* https://css-tricks.com/some-hands-on-with-the-html-dialog-element/ */
 dialog {
     position: fixed;
     top: 50%;

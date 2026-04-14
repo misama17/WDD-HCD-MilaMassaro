@@ -1,3 +1,9 @@
+// MARK: Bronnenlijst
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
+// https://medium.com/@dimterion/modals-with-html-dialog-element-in-javascript-and-react-fb23c885d62e
+// https://css-tricks.com/some-hands-on-with-the-html-dialog-element/
+
+
 // MARK: Constants
 // const audioButton = document.querySelector(".play-audio");
 const dialog = document.getElementById("analyzing-assistant");
