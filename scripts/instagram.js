@@ -44,6 +44,8 @@ const audios = {
     }
 }
 
+
+// MARK: functions
 function speechDescription(text) {
     speechSynthesis.cancel();
 
@@ -97,7 +99,7 @@ function showOptions() {
 
 
 
-
+// -------- Audio control buttons --------
 play.addEventListener("click", () => {
     if (!currentText) return;
 
@@ -108,9 +110,9 @@ pause.addEventListener("click", () => {
     speechSynthesis.pause();
 });
 
-document.addEventListener("keydown", (e) => {
-    if (e.code === "Space") {
-        e.preventDefault(); // voorkomt scrollen
+document.addEventListener("keydown", (event) => {
+    if (event.code === "Space") {
+        event.preventDefault(); 
 
         if (speechSynthesis.speaking) {
             if (speechSynthesis.paused) {
@@ -127,7 +129,6 @@ replay.addEventListener("click", () => {
 
     speechDescription(currentText);
 });
-
 
 close.addEventListener("click", () => {
     dialog.close();
