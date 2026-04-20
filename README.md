@@ -168,3 +168,34 @@ API.
 - Misschien: optie bieden dat ze zelf binnen de verdieping zich ook weer verder en verder kunnen verdiepen, zo ver ze zelf willen.
 
 
+## WEEK 4
+
+**maandag 20 april**
+
+Wat heb ik vandaag gedaan?
+
+In de ochtend had ik heel veel buikpijn, waardoor ik pas later op studie kon zijn. 
+Ik heb geprobeerd om een toggle te maken van de pause play button, maar dit lukte me niet zo goed. Ik kon hem wel pauzeren, maar daarna niet meer afspelen. Omdat dit meer een detail is dan een functionaliteit, wilde ik me hier niet verder op focussen. Dus toen ben ik verder gegaan met een chat functie. Deze heb ik vormgegeven, maar moet hem nog "werkend" maken met JavaScript. Ik denk dat ik dit wil gaan doen met "question.includes", zodat ik het een beetje fake voor de test.
+Verder heb ik een select toegevoegd zodat de gebruikers zelf kan kiezen welke stem ze willen horen. 
+
+
+Hoeveel tijd heeft dit me gekost?
+
+3,5 uur.
+1 uur toggle pause play.
+1 uur chat functie.
+30 min select met stemmen.
+
+
+
+Wat heb ik geleerd?
+
+Select koppelen aan JavaScript.
+
+
+
+Wat ga ik morgen doen?
+
+Testmoment met Ihab, feedback verwerken na testmoment.
+
+_Ik had mijn check-out met Luna Jay. Zij had heel slim een html gemaakt met opties, zodat haar testpersoon kon kiezen tussen bijvoorbeeld verschillende menu opties welke beter werkte. Misschien dat dat ook een idee voor mij is._
