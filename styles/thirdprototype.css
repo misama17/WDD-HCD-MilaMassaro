@@ -1,0 +1,343 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+    --color-text-one: #111;
+    --color-text-two: #FCFCFC;
+    --color-text-three: rgb(194, 194, 194);
+    --color-bg: #FCFCFC;
+    --color-border: #111;
+    --color-icons: #111;
+    --color-buttons: rgb(253, 99, 163);
+    --color-buttons-darker: rgb(132, 52, 85);
+    --color-details: rgb(232, 232, 232);
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--color-text-one);
+}
+
+main {
+    background-color: var(--color-bg);
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    color: var(--color-text-one);
+    border-bottom: 1px solid var(--color-details);
+    padding: 1em 0;
+
+    & ul {
+        display: flex;
+        gap: 1em;
+        padding: 0;
+
+        & li {
+            list-style: none;
+        }
+
+        & a {
+            text-decoration: none;
+            color: var(--color-text-three);
+            font-weight: bold;
+            font-size: 1em;
+        }
+    }
+
+    li:nth-of-type(3) a {
+        color: var(--color-text-one);
+    }
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.post-container {
+    height: 50svh;
+    min-height: 615px;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 350px;
+    background-color: var(--color-bg);
+    border-radius: 20px;
+    padding: 1em 1.5em;
+
+    display: grid;
+    grid-template-areas:
+    "header"
+    "post"
+    "likes-container"
+    "caption"
+    "comment";
+    grid-template-rows: auto 375px min-content auto auto;
+    gap: .5em;
+
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); */
+}
+
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    & .pp {
+        border-radius: 50%;
+        /* border: 1px solid var(--color-border); */
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+    }
+
+    & h2 {
+        font-size: 1.1rem;
+    }
+
+    .play-audio {
+        background: none;
+        border: none;
+        margin-left: auto;
+
+        & .audio {
+            display: block;
+            fill: var(--color-icons);
+            stroke: var(--color-icons);
+
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
+
+.post {
+    grid-area: post;
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    
+}
+
+.likes-container {
+    grid-area: likes-container;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: .25em;
+
+    & .heart-button,
+    .comment-button {
+        background: none;
+        border: none;
+    }
+
+    & .heart {
+        fill: var(--color-icons);
+    }
+
+    & .comment {
+        stroke: var(--color-icons);
+    }
+
+    & .likes-count,
+    .comments-count {
+        font-weight: bold;
+        align-self: center;
+    }
+}
+
+.caption {
+    grid-area: caption;
+    display: flex;
+    align-items: start;
+    margin-top: 1em;
+    gap: .75em;
+}
+
+.add-comment {
+    grid-area: comment;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+
+    & .user-comment {
+        width: 90%;
+
+        & input {
+            color: var(--color-border);
+            width: 100%;
+            height: 3em;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 1px solid var(--color-border);
+            padding: 1em;
+
+            &::placeholder {
+                color: gray;
+            }
+        }
+    }
+}
+
+/* https://css-tricks.com/some-hands-on-with-the-html-dialog-element/ */
+dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: min-content;
+    width: 70vw;
+    max-width: 550px;
+    min-width: 350px;
+    background-color: var(--color-bg);
+    border: none;
+    border-radius: 15px;
+    padding: 1.5em;
+
+    &::backdrop {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    & .choose-voice {
+        margin: 0 0 1.5em 0;
+
+        & select,
+        &::picker(select) {
+            appearance: base-select;
+
+            border-radius: 2em;
+            padding: .5em 1em;
+            background-color: #e4e6eb;
+            border: none;
+        }
+    }
+
+    & button {
+        border-radius: 20px;
+        border: none;
+        background-color: var(--color-buttons);
+        color: var(--color-text-two);
+        padding: .5em;
+        width: 15%;
+
+        &:hover {
+            background-color: var(--color-buttons-darker);
+        }
+    }
+
+    & #general-description {
+        margin: 1em 0;
+    }
+
+    & h3 {
+        margin: 2.5em 0 1em 0;
+    }
+
+    & .indept-themes {
+        margin: 2em 0;
+        
+        & #indept-description {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: .5em;
+
+                & button {
+                    width: 100%;
+                    border: 1.5px solid var(--color-buttons-darker);
+                    background-color: transparent;
+                    color: var(--color-text-one);
+
+                    &:hover {
+                        background-color: var(--color-buttons);
+                    }
+                }
+        } 
+    }
+
+    & .chat-function {
+        background-color: #f9f9f9;
+        height: 20em;
+        margin: 0 0 .5em 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: clip;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+
+        & .chat-window {
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            padding: 1em;
+        }
+
+        & .message {
+            max-width: 70%;
+            padding: 1em;
+            border-radius: 20px;
+        }
+
+        & .message.bot {
+            align-self: flex-start;
+            border-radius: 10px 10px 10px 0px;
+            background-color: #e4e6eb;
+        }
+
+        & .message.user {
+            align-self: flex-start;
+            border-radius: 10px 10px 0px 10px;
+            background-color: hotpink;
+        }
+    }
+
+    & form {
+        display: flex;
+        gap: .5em;
+        padding: .5em;
+
+        & input {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 1em;
+            padding-left: 1em;
+        }
+    }
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
