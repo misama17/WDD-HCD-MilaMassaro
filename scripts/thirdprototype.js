@@ -20,13 +20,7 @@ const chatWindow = document.querySelector(".chat-window");
 const chatForm = document.querySelector(".chat-function form");
 const chatInput = document.getElementById("input-questions");
 
-
-// MARK: Variables
-let currentAudio = null;
-let currentText = "";
-
-let voices = [];
-let selectedVoice = null;
+const voiceSelect = document.getElementById("voice-select");
 
 
 // MARK: Constanten - Audio descriptions
@@ -53,7 +47,18 @@ const audios = {
 }
 
 
+// MARK: Variables
+let currentAudio = null;
+let currentText = "";
+
+let voices = [];
+let selectedVoice = null;
+
+
+
+
 // MARK: functions
+// ---------- SPEECH ----------
 function speechDescription(text) {
     speechSynthesis.cancel();
 
@@ -71,9 +76,46 @@ function speechDescription(text) {
     window.speechSynthesis.speak(utteranceSpeech);
 }
 
+buttonsDialog.forEach(button => {
+    button.addEventListener("click", () => {
+        const id = button.dataset.id;
+
+        currentAudio = audios[id];
+
+        if (!currentAudio) return;
+
+        dialog.showModal();
+
+        description.textContent = currentAudio.intro;
+
+        speechDescription(currentAudio.intro);
+
+        showOptions();
+    });
+});
+
+function showOptions() {
+    indeptDescription.innerHTML = "";
+
+    currentAudio.options.forEach(option => {
+        const newButton = document.createElement("button");
+
+        newButton.textContent = option.opt;
+
+        newButton.addEventListener("click", () => {
+            description.textContent = option.text;
+            speechDescription(option.text);
+        })
+
+        indeptDescription.appendChild(newButton);
+    })
+}
+
+
 
 // !! ChatGPT: hoe maak ik een chatbot functie in JavaScript?
 // MARK: Chat functions
+// ---------- CHAT ----------
 function addMessageToWindow(text, sender) {
     const messageDiv = document.createElement("div");
     messageDiv.classList.add("message", sender);
@@ -113,47 +155,6 @@ function getBotResponse(userText) {
     return "That's an interesting question! I can tell you more about the colors, the players, or the feeling of the moment.";
 }
 
-
-
-
-buttonsDialog.forEach(button => {
-    button.addEventListener("click", () => {
-        const id = button.dataset.id;
-
-        currentAudio = audios[id];
-
-        if (!currentAudio) return;
-
-        dialog.showModal();
-
-        description.textContent = currentAudio.intro;
-
-        speechDescription(currentAudio.intro);
-
-        showOptions();
-    });
-});
-
-
-
-function showOptions() {
-    indeptDescription.innerHTML = "";
-
-    currentAudio.options.forEach(option => {
-        const newButton = document.createElement("button");
-
-        newButton.textContent = option.opt;
-
-        newButton.addEventListener("click", () => {
-            description.textContent = option.text;
-            speechDescription(option.text);
-        })
-
-        indeptDescription.appendChild(newButton);
-    })
-}
-
-
 chatForm.addEventListener("submit", (e) => {
     e.preventDefault();
     const message = chatInput.value.trim();
@@ -170,7 +171,10 @@ chatForm.addEventListener("submit", (e) => {
 });
 
 
-// -------- Audio control buttons --------
+
+
+
+// ---------- AUDIO CONTROL BUTTONS ----------
 play.addEventListener("click", () => {
     if (!currentText) return;
 
@@ -185,7 +189,7 @@ pause.addEventListener("click", () => {
     speechSynthesis.pause();
 });
 
-
+// !! ChatGPT: Ik kan geen spatie gebruiken in mijn inputfield, omdat ik een shortcut met space gebruik.
 // MARK: Keyboard Controls
 document.addEventListener("keydown", (event) => {
     // Check of de gebruiker in een input-veld aan het typen is
@@ -222,9 +226,7 @@ close.addEventListener("click", () => {
 })
 
 
-const voiceSelect = document.getElementById("voice-select");
-
-// -------- Voice --------
+// ---------- VOICES SELECT ----------
 // !! ChatGPT: hoe pas ik de stem aan in javascript? ik heb het nu op language EN-en maar alsnog kreeg ik Microsoft Frank die begon te lezen.
 voiceSelect.addEventListener("change", () => {
     // 1. Update de geselecteerde stem
@@ -262,6 +264,8 @@ function updateVoice() {
 }
 
 voiceSelect.addEventListener("change", updateVoice);
+
+
 
 // Sommige browsers laden async
 speechSynthesis.onvoiceschanged = loadVoices;
