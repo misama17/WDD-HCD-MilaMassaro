@@ -228,47 +228,43 @@ close.addEventListener("click", () => {
 
 // ---------- VOICES SELECT ----------
 // !! ChatGPT: hoe pas ik de stem aan in javascript? ik heb het nu op language EN-en maar alsnog kreeg ik Microsoft Frank die begon te lezen.
-voiceSelect.addEventListener("change", () => {
-    // 1. Update de geselecteerde stem
-    updateVoice();
-    
-    // 2. Als er al tekst was, lees die dan simpelweg opnieuw voor met de nieuwe stem
-    if (currentText) {
-        // We gebruiken de bestaande currentText zodat deze NIET verandert in "Voice changed"
-        speechDescription(currentText); 
-    }
-});
-
 function loadVoices() {
     voices = speechSynthesis.getVoices();
 
-    updateVoice();
+    if (voices.length === 0) return;
+
+    populateVoices();
+}
+
+function populateVoices() {
+    voiceSelect.innerHTML = "";
+
+    voices.forEach((voice, index) => {
+        const option = document.createElement("option");
+        option.value = index;
+        option.textContent = `${voice.name} (${voice.lang})`;
+        voiceSelect.appendChild(option);
+    });
+
+    // kies standaard Engelse stem
+    const defaultIndex = voices.findIndex(v => v.lang.startsWith("en"));
+    voiceSelect.value = defaultIndex !== -1 ? defaultIndex : 0;
+
+    selectedVoice = voices[voiceSelect.value];
 }
 
 function updateVoice() {
-    const selectedValue = voiceSelect.value;
-
-    if (selectedValue === "google-us") {
-        selectedVoice = voices.find(v => v.name === "Google US English") || voices.find(v => v.lang === "en-US");
-    } else if (selectedValue === "alex") {
-        selectedVoice = voices.find(v => v.name === "Alex") || voices.find(v => v.name.includes("David"));
-    } else if (selectedValue === "samantha") {
-        selectedVoice = voices.find(v => v.name.includes("Samantha")) || voices.find(v => v.name.includes("Zira"));
-    } else if (selectedValue === "daniel") {
-        selectedVoice = voices.find(v => v.name.includes("Daniel")) || voices.find(v => v.lang.includes("en-GB"));
-    } 
-
-    if (!selectedVoice) {
-        selectedVoice = voices.find(v => v.lang.startsWith("en")) || voices[0];
-    }
+    selectedVoice = voices[voiceSelect.value];
 }
 
-voiceSelect.addEventListener("change", updateVoice);
+voiceSelect.addEventListener("change", () => {
+    updateVoice();
 
+    if (currentText) {
+        speechDescription(currentText);
+    }
+});
 
-
-// Sommige browsers laden async
+// belangrijk (async laden)
 speechSynthesis.onvoiceschanged = loadVoices;
-
-// Initial call
 loadVoices();
