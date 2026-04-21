@@ -268,12 +268,13 @@ dialog {
 
                 & button {
                     width: 100%;
-                    border: 1.5px solid var(--color-buttons-darker);
+                    border: 1.5px solid var(--color-buttons);
                     background-color: transparent;
                     color: var(--color-text-one);
 
                     &:hover {
                         background-color: var(--color-buttons);
+                        color: var(--color-text-two);
                     }
                 }
         } 
@@ -314,6 +315,7 @@ dialog {
             align-self: flex-end;
             border-radius: 10px 10px 0px 10px;
             background-color: hotpink;
+            color: var(--color-text-two);
         }
     }
 

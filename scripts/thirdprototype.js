@@ -72,7 +72,7 @@ function speechDescription(text) {
 }
 
 
-
+// !! ChatGPT: hoe maak ik een chatbot functie in JavaScript?
 // MARK: Chat functions
 function addMessageToWindow(text, sender) {
     const messageDiv = document.createElement("div");
@@ -95,14 +95,15 @@ function getBotResponse(userText) {
 
     // Specifieke antwoorden voor Post 1 (Football)
     if (currentAudio === audios[1]) {
-        if (question.includes("color") || question.includes("purple")) return "The uniforms are deep purple, standing out against the green field.";
+        if (question.includes("color") || question.includes("purple")) return "The uniforms are deep purple with white lettering and details.";
         if (question.includes("who") || question.includes("player")) return "This is a Washington Huskies player celebrating a victory.";
     }
 
     // Specifieke antwoorden voor Post 2 (Messi)
     if (currentAudio === audios[2]) {
-        if (question.includes("who") || question.includes("messi")) return "That is Lionel Messi, playing for Argentina.";
-        if (question.includes("ball") || question.includes("dribble")) return "Messi is closely controlled by French defenders while dribbling.";
+        if (question.includes("who") || question.includes("messi")) return "That is Lionel Messi, playing for Argentina. N'Golo Kanté is defending behind him, playing for France.";
+        if (question.includes("ball") || question.includes("dribble")) return "Messi is closely controlled by French defender Kanté while dribbling.";
+        if (question.includes("color") || question.includes("tenue")) return "The uniform of Argentina is a white shirt with big light blue vertical stripes, a black short and white socks. The France player wears a dark blue shirt, white short en bright red socks.";
     }
 
     // Algemene antwoorden
@@ -184,8 +185,27 @@ pause.addEventListener("click", () => {
     speechSynthesis.pause();
 });
 
+// document.addEventListener("keydown", (event) => {
+//     if (event.code === "Space") {
+//         event.preventDefault(); 
+
+//         if (speechSynthesis.speaking) {
+//             if (speechSynthesis.paused) {
+//                 speechSynthesis.resume();
+//             } else {
+//                 speechSynthesis.pause();
+//             }
+//         }
+//     }
+// });
+
+// MARK: Keyboard Controls
 document.addEventListener("keydown", (event) => {
-    if (event.code === "Space") {
+    // Check of de gebruiker in een input-veld aan het typen is
+    const isTyping = event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA';
+
+    // Voer de play/pause alleen uit als we NIET aan het typen zijn
+    if (event.code === "Space" && !isTyping) {
         event.preventDefault(); 
 
         if (speechSynthesis.speaking) {
