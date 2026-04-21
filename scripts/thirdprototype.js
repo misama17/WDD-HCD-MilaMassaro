@@ -185,19 +185,6 @@ pause.addEventListener("click", () => {
     speechSynthesis.pause();
 });
 
-// document.addEventListener("keydown", (event) => {
-//     if (event.code === "Space") {
-//         event.preventDefault(); 
-
-//         if (speechSynthesis.speaking) {
-//             if (speechSynthesis.paused) {
-//                 speechSynthesis.resume();
-//             } else {
-//                 speechSynthesis.pause();
-//             }
-//         }
-//     }
-// });
 
 // MARK: Keyboard Controls
 document.addEventListener("keydown", (event) => {
@@ -227,6 +214,11 @@ replay.addEventListener("click", () => {
 close.addEventListener("click", () => {
     dialog.close();
     speechSynthesis.cancel();
+
+    chatWindow.innerHTML = 
+    `<div class="message bot">
+        Hey! I analyzed the content of the post. Do you have specific questions?
+     </div>`;
 })
 
 
