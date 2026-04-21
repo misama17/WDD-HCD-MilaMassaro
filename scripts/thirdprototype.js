@@ -16,6 +16,11 @@ const indeptDescription = document.getElementById("indept-description");
 
 const buttonsDialog = document.querySelectorAll(".play-audio");
 
+const chatWindow = document.querySelector(".chat-window");
+const chatForm = document.querySelector(".chat-function form");
+const chatInput = document.getElementById("input-questions");
+
+
 // MARK: Variables
 let currentAudio = null;
 let currentText = "";
@@ -68,6 +73,48 @@ function speechDescription(text) {
 
 
 
+// MARK: Chat functions
+function addMessageToWindow(text, sender) {
+    const messageDiv = document.createElement("div");
+    messageDiv.classList.add("message", sender);
+    messageDiv.textContent = text;
+    
+    chatWindow.appendChild(messageDiv);
+    
+    // Automatisch naar beneden scrollen
+    chatWindow.scrollTop = chatWindow.scrollHeight;
+
+    // Als de bot praat, lees het voor
+    if (sender === "bot") {
+        speechDescription(text);
+    }
+}
+
+function getBotResponse(userText) {
+    const question = userText.toLowerCase();
+
+    // Specifieke antwoorden voor Post 1 (Football)
+    if (currentAudio === audios[1]) {
+        if (question.includes("color") || question.includes("purple")) return "The uniforms are deep purple, standing out against the green field.";
+        if (question.includes("who") || question.includes("player")) return "This is a Washington Huskies player celebrating a victory.";
+    }
+
+    // Specifieke antwoorden voor Post 2 (Messi)
+    if (currentAudio === audios[2]) {
+        if (question.includes("who") || question.includes("messi")) return "That is Lionel Messi, playing for Argentina.";
+        if (question.includes("ball") || question.includes("dribble")) return "Messi is closely controlled by French defenders while dribbling.";
+    }
+
+    // Algemene antwoorden
+    if (question.includes("feeling") || question.includes("emotion")) return "The atmosphere is intense and full of energy.";
+    if (question.includes("stadium") || question.includes("where")) return "It looks like a professional stadium filled with fans.";
+
+    return "That's an interesting question! I can tell you more about the colors, the players, or the feeling of the moment.";
+}
+
+
+
+
 buttonsDialog.forEach(button => {
     button.addEventListener("click", () => {
         const id = button.dataset.id;
@@ -106,6 +153,20 @@ function showOptions() {
 }
 
 
+chatForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const message = chatInput.value.trim();
+    if (!message) return;
+
+    addMessageToWindow(message, "user");
+    chatInput.value = "";
+
+    // Simuleer denkpauze bot
+    setTimeout(() => {
+        const botAnswer = getBotResponse(message);
+        addMessageToWindow(botAnswer, "bot");
+    }, 800);
+});
 
 
 // -------- Audio control buttons --------

@@ -311,7 +311,7 @@ dialog {
         }
 
         & .message.user {
-            align-self: flex-start;
+            align-self: flex-end;
             border-radius: 10px 10px 0px 10px;
             background-color: hotpink;
         }
