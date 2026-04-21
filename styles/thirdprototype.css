@@ -10,11 +10,15 @@
     --color-text-two: #FCFCFC;
     --color-text-three: rgb(194, 194, 194);
     --color-bg: #FCFCFC;
+    --color-bg-two: rgb(236, 236, 236);
     --color-border: #111;
     --color-icons: #111;
     --color-buttons: rgb(253, 99, 163);
     --color-buttons-darker: rgb(132, 52, 85);
     --color-details: rgb(232, 232, 232);
+
+    --width-aside-closed: 60px;
+    --width-aside-open: 200px;
 }
 
 body {
@@ -25,6 +29,67 @@ body {
 main {
     background-color: var(--color-bg);
 }
+
+.sidebar {
+    width: var(--width-aside-closed);
+    height: 100vh;
+    background-color: var(--color-bg);
+    transition: width 0.3s ease;
+    overflow: clip;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    &:hover {
+        width: var(--width-aside-open);
+
+        & .text {
+           opacity: 1; 
+        }
+    }
+}
+
+.sidebar-nav {
+    height: 100svh;
+    display: flex;
+    align-items: center;
+
+    & ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    & a {
+        display: flex;
+        align-items: center;
+        height: 4rem;
+        text-decoration: none;
+        color: var(--color-text-one);
+        margin: .75em;
+
+        &:hover {
+            background-color: var(--color-bg-two);
+            border-radius: 10px;
+        }
+    }
+
+    & .text {
+        white-space: nowrap;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+    }
+
+    & .icon {
+        min-width: 1.5em;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+}
+
 
 
 h1 {

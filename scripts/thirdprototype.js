@@ -226,6 +226,7 @@ close.addEventListener("click", () => {
 })
 
 
+
 // ---------- VOICES SELECT ----------
 // !! ChatGPT: hoe pas ik de stem aan in javascript? ik heb het nu op language EN-en maar alsnog kreeg ik Microsoft Frank die begon te lezen.
 function loadVoices() {
