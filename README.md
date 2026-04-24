@@ -199,3 +199,40 @@ Wat ga ik morgen doen?
 Testmoment met Ihab, feedback verwerken na testmoment.
 
 _Ik had mijn check-out met Luna Jay. Zij had heel slim een html gemaakt met opties, zodat haar testpersoon kon kiezen tussen bijvoorbeeld verschillende menu opties welke beter werkte. Misschien dat dat ook een idee voor mij is._
+
+
+**dinsdag 21 april**
+
+Wat heb ik vandaag gedaan?
+
+In de ochtend had ik mijn testmoment met Ihab. Hij las de Engelse tekst weer voor in het Nederlands, maar de tekst en lengte ervan vond hij wel prettig. Hij vond de chatbot waar je gedetailleerdere vragen kon stellen wel een heel leuk en prettig ideel. Wel merkte ik in de test dat hij heel diep doorvroeg, maar dat had ik niet in mijn javascript verwerkt. Later had ik met Vasilis gesproken en hij zei dat ik dat niet helemaal hoef uit te werken.
+Ihab begreep hoe het werkte en kon er makkelijk doorheen navigeren. Enige was dat hij met een verkeerde stem voorlas.
+Thuis/in de middag heb ik een aside navigatie gemaakt.
+
+
+Hoeveel tijd heeft dit me gekost?
+
+4 uur.
+2 uur testen.
+30 min stemmen aanpassen.
+1,5 uur navigatie en vormgeving.
+
+
+Wat heb ik geleerd?
+
+Hoe de lees stemmen anders werken op macbook en andere laptops.
+
+
+Wat ga ik morgen doen?
+
+API.
+
+
+
+### VOORTGANGSGESPREKKEN AANTEKENINGEN
+
+**Eigen feedback**
+- Controls fixen: pause play etc. maar ook dat je dit kan doen als we in de chatbot zitten.
+- Goed kijken naar de flow. Met een screenreader is die soms niet helemaal goed te volgen.
+- Als je bijvoorbeeld bij de themes een aanpassing doet, dan moet de focus ook weer naar de tekst en de control buttons.
+- Shortcuts toevoegen voor audio controls.
