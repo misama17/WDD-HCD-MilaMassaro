@@ -236,3 +236,67 @@ API.
 - Goed kijken naar de flow. Met een screenreader is die soms niet helemaal goed te volgen.
 - Als je bijvoorbeeld bij de themes een aanpassing doet, dan moet de focus ook weer naar de tekst en de control buttons.
 - Shortcuts toevoegen voor audio controls.
+
+
+## REFLECTIE
+
+### Study situation
+
+Ik heb 4 testmomenten met Ihab gehad. Voor het eerste testmoment wist ik eigenlijk niet zo goed wat ik kon verwachten. Ik heb dan ook voor het eerste testmoment een nonsense idee uitgewerkt en vooral gefocust op vragen voorbereiden zodat ik me goed kon oriënteren. Het opstellen van goede vragen en het doorvragen tijdens de testmomenten heb ik voortgezet bij de rest van de testmomenten, omdat dit goed werkte voor mij. Ook heb ik zelf research gedaan (https://www.notion.so/Human-Centred-Design-8-11-3334a28d1c2c800e83fbebd0e66649a5?source=copy_link) naar wat "sfeer" is. In mijn eerste test kwam naar voren dat sfeer natuurlijk een breed, abstract en vooral erg persoonlijk begrip is. Dit zette me toen enorm aan het denken. Door onderzoek te doen, kwam ik achter antwoorden voor mezelf. Hier heb ik toen verschillende ideeën en conclusies uit getrokken. Ook heb ik een goed gesprek met Léoni gehad hierover. Het zelf nadenken over mijn concept met behulp van research, praten erover met andere en de testmomenten heb er uiteindelijk voor gezorgd dat ik een concept kon opzetten met een sterke inhoudelijke basis. Hier heb ik dan ook best wat tijd in geïnvesteerd. 
+In mijn onderzoek heb ik ook gekeken naar het verschil tussen hoe mensen zonder visuele beperking sfeer interpreteren en hoe iemand met een visuele beperking sfeer interpreteert. Dit heb ik ook in mijn tweede test moment gevraagd aan Ihab. Voor mij is het viusele aspect enorm bepalend voor sfeer, dus het was heel interessant om me te verdiepen in een andere context. 
+Iets anders dat ik erg belangrijk vond, was dat mijn concept waardevol en relevant is. Ik heb echt op een nieuwe manier naar ideeën gekeken, wat echt super interessant was. Zeker omdat ik filosofie en abstracte ideeën altijd interessant heb gevonden. Dus de vraag "wat is sfeer en wat is de invloed van context hierop?" past dan ook helemaal binnen mijn straatje.
+
+Voor het concept heb ik me echt gericht op een bredere groep, namelijk mensen met een visuele beperking. Voor het prototype heb ik me vooral ook gefocust op Ihab. Ihab is heel goed in gebruik van screenreaders en het navigeren van het web. Hij had dan ook geen problemen met mijn prototype. Echter, als iemand hier (nog) niet zo goed in is, dan is het gebruik lastiger. Dit is dan ook nog een goede aanpassing voor in de toekomst.
+
+
+### Ignore conventions
+
+Bij het maken van mijn prototypes kwam ik erachter dat ik altijd visueel denk. Als ik een website maak, dan denk ik: wat is een goede flow visueel gezien? waar wil ik dat de aandacht naartoe gaat? Maar bij het maken van mijn prototypes werd me duidelijk dat wat visueel werkt niet per se de beste manier is voor gebruik met een screenreader. Hier wil je liever kijken naar welke dingen zijn het belangrijkst en hoe zorg ik ervoor dat de screenreader daar eerst komt? Dit was best wel even schakelen voor mij, omdat ik dit nooit eerder had gedaan. Ik ben een enorm visueel ingesteld persoon, maar het was leuk om dingen op een andere manier te benaderen. Uiteindelijk heb ik zowel op het visuele als het functionele aspect gelet.
+
+Een convention waar ik over na heb gedacht of dat wel de beste manier is, is waar ik de button het beste kon plaatsen die naar mijn functionaliteit zou gaan. 
+Daarna heb ik wel de lay-out van Instagram aangehouden, omdat het idee uiteindelijk is dat mijn concept in combinatie met Instagram gebruikt kan worden, niet dat ik een soortgelijke Instagram maak voor slechtzienden. Het is dan ook belangrijk dat dit goed te navigeren is op een Instagram lay-out. Ik heb wel in mijn achterhoofd gehouden dat de navigatie helder is met een screenreader. Ihab had geen problemen met het vinden van mijn functionaliteiten.
+
+
+### Prioritise identity
+
+Ihab heeft een actieve rol gespeeld in mijn designproces. Ik heb bij alle testmomenten echt mijn tijd genomen om door te vragen, zijn mening te vragen en te vragen hoe hij dingen ervaart. Het werkte voor mij het beste om wisselend open vragen en gerichte vragen te stellen. Als hij een twijfelend antwoord gaf, ben ik er dieper op ingegaan. Ik had wel beperkt de tijd, omdat ik met 10 andere in een groep zat en ik dus rekening moet houden met de tijd. Maar het liefst had ik nog dieper doorgevraagd.
+
+
+### Add nonsense
+
+Mijn eerste prototype was eigenlijk een nonsense concept helemaal. Daarna heb ik de nonsense wat achterwegen gelaten, maar heb wel een aantal suggesties voor nonsense ideeën als aanbeveling:
+
+**Audio zoom**
+
+Gebruiker kan inzoomen op bepaalde delen van de foto. Omdat blinden/slechtzienden niet echt gebruik maken van hun muis zou dit het beste gedaan kunnen worden met bijvoorbeeld shortcuts kan kiezen of met tab, maar denk dat shortcuts het beste werken. Ik zou bijvoorbeeld elke foto kunnen opdelen in een raster van 3x3 en dan gebruikmaken van de cijfers 1 tot en met 9. Dan voor elk vakje een audio. 
+
+**Ambience audio**
+
+Er komt standaard een ambience audio per foto. Dus de foto wordt niet alleen omschreven en de sfeer wordt niet alleen omschreven, maar er wordt ook met audio een sfeer toegevoegd. Het is alleen heel lastig om sfeer om te zetten naar audio, omdat dit persoonlijk is (zie research hierboven).
+
+**Trillen**
+
+Misschien kan ik iets doen met trillen als de gebruiker de website op hun telefoon opent. Misschien dat het trillen toe kan voegen aan de sfeer, net zoals je in bijvoorbeeld spannende films ook een harde bas hebt om meer spanning toe te voegen. 
+
+**Identiteit met audio/auditieve identiteit**
+
+Op bijvoorbeeld Instagram uiten gebruikers zich vaak visueel ook met hun “aesthetic” of door een bio toe te voegen of een profielfoto. Misschien is het een idee dat mensen ook een eigen “muziekje”/”geluidje” kunnen kiezen die bij hen past. Als iemand dan door hun feed scrollt, dan kan misschien dat geluidje afgespeeld worden om “identiteit” te tonen.
+
+Dit geluid zou of voor de persoon specifiek kunnen zijn. Maar ik zou ook kunnen zeggen dat het voor de content specifiek is. Dus stel het is een natuurfoto, dan hoor je audio die daarbij hoort, stel het is een sportfoto, dan hoor je audio daarbij. Op deze manier kunnen gebruikers het type content direct identificeren. 
+
+**Scrolling**
+
+Op Instagram (zeker op iemands telefoon) scroll je door je feed. Maar als je blind of slechtziend bent, dan krijg je natuurlijk niet de visuele cue mee van het scrollen. Misschien dat een trilling of iets die indicatie geeft dat je verder scrollt helpt zodat gebruikers dan weten hoe ver je scrollt etc.
+
+**3D spatial audio**
+
+Voor blinden/slechtzienden is de uitleg een platte tekst en is er niet of nauwelijks indicatie van diepte. Misschien dat er diepte toegevoegd kan worden door spatial audio. 
+
+De "Sonar-Ping" (Echolocatie): Blinden gebruiken soms actieve echolocatie (klikken met de tong). Jij kunt dit in je interface bouwen → In plaats van dat de bot vertelt: "Er is veel diepte in deze foto", laat je de gebruiker die diepte *voelen* door middel van reflectie en tijd.
+
+Als de gebruiker een knop “explore photo” indrukt, hoor je de ambience-audio (het stadion bijvoorbeeld) heel breed om je heen, maar de chatbot "loopt" als het ware door de foto heen terwijl hij vertelt wat hij ziet. Je hoort de stem van de bot dus van positie veranderen naarmate hij verschillende details bespreekt.
+
+
+### REFLECTIE OP HET HELE VAK HCD
+
+
