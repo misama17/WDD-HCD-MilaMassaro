@@ -336,6 +336,16 @@ Ik vond het voor dit vak heel erg leuk om research te doen en me in een vraagstu
 Iets wat ik jammer vond dit vak was dat we met een grote groep gingen testen. Het was heel fijn om feedback op andermans concepten te horen en om andere hun concepten te zien en inspiratie daaruit op te doen, maar ik voelde me ook enorm beperkt hierdoor. 2 uur met zijn 11en is niet heel veel tijd per persoon, waardoor ik soms nog vragen had tijdens het testen, maar deze niet meer kon stellen omwille van tijd. Ik wilde ook niet andermans tijd inpikken. Dus dit vond ik een beetje jammer.
 
 
+## AANBEVELINGEN
+
+De functie beter laten werken met een screenreader. Ihab begreep het nu goed, maar hij is ook erg vaardig. Voor andere is dit misschien lastiger. 
+- Focus terugbrengen naar de tekst die voorgelezen wordt.
+- Als je een vraag hebt gesteld, dan focus terugbrengen naar de knoppen voor pauze en play (en/of duidelijke shortcuts)
+
+Pauze en play knop in 1 toggle, optie bieden om door- en terug te spoelen, optie bieden om snelheid van spreken aan te passen.
+
+Toevoegen van nonsense (ideeën hiervoor zijn benoemnd bij Reflectie > nonsense)
+
 
 ## BRONNENLIJST
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
