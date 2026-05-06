@@ -266,35 +266,25 @@ Ihab heeft een actieve rol gespeeld in mijn designproces. Ik heb bij alle testmo
 
 Mijn eerste prototype was eigenlijk een nonsense concept helemaal. Daarna heb ik de nonsense wat achterwegen gelaten, maar heb wel een aantal suggesties voor nonsense ideeën als aanbeveling:
 
-**Audio zoom**
+- **Audio zoom**
+  Gebruiker kan inzoomen op bepaalde delen van de foto. Omdat blinden/slechtzienden niet echt gebruik maken van hun muis zou dit het beste gedaan kunnen worden met bijvoorbeeld shortcuts kan kiezen of met tab, maar denk dat shortcuts het beste werken. Ik zou bijvoorbeeld elke foto kunnen opdelen in een raster van 3x3 en dan gebruikmaken van de cijfers 1 tot en met 9. Dan voor elk vakje een audio.
+- **Ambience audio**
+  Er komt standaard een ambience audio per foto. Dus de foto wordt niet alleen omschreven en de sfeer wordt niet alleen omschreven, maar er wordt ook met audio een sfeer toegevoegd. Het is alleen heel lastig om sfeer om te zetten naar audio, omdat dit persoonlijk is (zie research hierboven).
+- **Trillen**
+  Misschien kan ik iets doen met trillen als de gebruiker de website op hun telefoon opent. Misschien dat het trillen toe kan voegen aan de sfeer, net zoals je in bijvoorbeeld spannende films ook een harde bas hebt om meer spanning toe te voegen.
+- **Identiteit met audio/auditieve identiteit**
+  Op bijvoorbeeld Instagram uiten gebruikers zich vaak visueel ook met hun “aesthetic” of door een bio toe te voegen of een profielfoto. Misschien is het een idee dat mensen ook een eigen “muziekje”/”geluidje” kunnen kiezen die bij hen past. Als iemand dan door hun feed scrollt, dan kan misschien dat geluidje afgespeeld worden om “identiteit” te tonen.
+  Dit geluid zou of voor de persoon specifiek kunnen zijn. Maar ik zou ook kunnen zeggen dat het voor de content specifiek is. Dus stel het is een natuurfoto, dan hoor je audio die daarbij hoort, stel het is een sportfoto, dan hoor je audio daarbij. Op deze manier kunnen gebruikers het type content direct identificeren.
+- **Scrolling**
+  Op Instagram (zeker op iemands telefoon) scroll je door je feed. Maar als je blind of slechtziend bent, dan krijg je natuurlijk niet de visuele cue mee van het scrollen. Misschien dat een trilling of iets die indicatie geeft dat je verder scrollt helpt zodat gebruikers dan weten hoe ver je scrollt etc.
+- **3D spatial audio**
+  Voor blinden/slechtzienden is de uitleg een platte tekst en is er niet of nauwelijks indicatie van diepte. Misschien dat er diepte toegevoegd kan worden door spatial audio.
+  De "Sonar-Ping" (Echolocatie): Blinden gebruiken soms actieve echolocatie (klikken met de tong). Jij kunt dit in je interface bouwen → In plaats van dat de bot vertelt: "Er is veel diepte in deze foto", laat je de gebruiker die diepte *voelen* door middel van reflectie en tijd.
+  Als de gebruiker een knop “explore photo” indrukt, hoor je de ambience-audio (het stadion bijvoorbeeld) heel breed om je heen, maar de chatbot "loopt" als het ware door de foto heen terwijl hij vertelt wat hij ziet. Je hoort de stem van de bot dus van positie veranderen naarmate hij verschillende details bespreekt.
 
-Gebruiker kan inzoomen op bepaalde delen van de foto. Omdat blinden/slechtzienden niet echt gebruik maken van hun muis zou dit het beste gedaan kunnen worden met bijvoorbeeld shortcuts kan kiezen of met tab, maar denk dat shortcuts het beste werken. Ik zou bijvoorbeeld elke foto kunnen opdelen in een raster van 3x3 en dan gebruikmaken van de cijfers 1 tot en met 9. Dan voor elk vakje een audio. 
 
-**Ambience audio**
 
-Er komt standaard een ambience audio per foto. Dus de foto wordt niet alleen omschreven en de sfeer wordt niet alleen omschreven, maar er wordt ook met audio een sfeer toegevoegd. Het is alleen heel lastig om sfeer om te zetten naar audio, omdat dit persoonlijk is (zie research hierboven).
 
-**Trillen**
-
-Misschien kan ik iets doen met trillen als de gebruiker de website op hun telefoon opent. Misschien dat het trillen toe kan voegen aan de sfeer, net zoals je in bijvoorbeeld spannende films ook een harde bas hebt om meer spanning toe te voegen. 
-
-**Identiteit met audio/auditieve identiteit**
-
-Op bijvoorbeeld Instagram uiten gebruikers zich vaak visueel ook met hun “aesthetic” of door een bio toe te voegen of een profielfoto. Misschien is het een idee dat mensen ook een eigen “muziekje”/”geluidje” kunnen kiezen die bij hen past. Als iemand dan door hun feed scrollt, dan kan misschien dat geluidje afgespeeld worden om “identiteit” te tonen.
-
-Dit geluid zou of voor de persoon specifiek kunnen zijn. Maar ik zou ook kunnen zeggen dat het voor de content specifiek is. Dus stel het is een natuurfoto, dan hoor je audio die daarbij hoort, stel het is een sportfoto, dan hoor je audio daarbij. Op deze manier kunnen gebruikers het type content direct identificeren. 
-
-**Scrolling**
-
-Op Instagram (zeker op iemands telefoon) scroll je door je feed. Maar als je blind of slechtziend bent, dan krijg je natuurlijk niet de visuele cue mee van het scrollen. Misschien dat een trilling of iets die indicatie geeft dat je verder scrollt helpt zodat gebruikers dan weten hoe ver je scrollt etc.
-
-**3D spatial audio**
-
-Voor blinden/slechtzienden is de uitleg een platte tekst en is er niet of nauwelijks indicatie van diepte. Misschien dat er diepte toegevoegd kan worden door spatial audio. 
-
-De "Sonar-Ping" (Echolocatie): Blinden gebruiken soms actieve echolocatie (klikken met de tong). Jij kunt dit in je interface bouwen → In plaats van dat de bot vertelt: "Er is veel diepte in deze foto", laat je de gebruiker die diepte *voelen* door middel van reflectie en tijd.
-
-Als de gebruiker een knop “explore photo” indrukt, hoor je de ambience-audio (het stadion bijvoorbeeld) heel breed om je heen, maar de chatbot "loopt" als het ware door de foto heen terwijl hij vertelt wat hij ziet. Je hoort de stem van de bot dus van positie veranderen naarmate hij verschillende details bespreekt.
 
 
 ### REFLECTIE OP HET HELE VAK HCD
