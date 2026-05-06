@@ -342,7 +342,7 @@ De functie beter laten werken met een screenreader. Ihab begreep het nu goed, ma
 - Focus terugbrengen naar de tekst die voorgelezen wordt.
 - Als je een vraag hebt gesteld, dan focus terugbrengen naar de knoppen voor pauze en play (en/of duidelijke shortcuts)
 
-Pauze en play knop in 1 toggle, optie bieden om door- en terug te spoelen, optie bieden om snelheid van spreken aan te passen.
+Pauze en play knop in 1 toggle, optie bieden om door- en terug te spoelen, optie bieden om snelheid van spreken aan te passen. >> dit heb ik voor het final prototype aangepast.
 
 Toevoegen van nonsense (ideeën hiervoor zijn benoemnd bij Reflectie > nonsense)
 
