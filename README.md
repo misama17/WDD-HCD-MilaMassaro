@@ -348,6 +348,8 @@ Toevoegen van nonsense (ideeën hiervoor zijn benoemnd bij Reflectie > nonsense)
 
 Ik heb nu wel een aside navigatie toegevoegd voor het idee, maar deze brengen je niet naar andere pagina's. Dit kan verwarrend zijn. 
 
+Nu gaat de chat-bot voor dit prototype niet super diep in op het onderwerp, maar uiteindelijk zou hij met AI moeten/kunnen werken.
+
 
 ## BRONNENLIJST
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
