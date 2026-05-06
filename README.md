@@ -339,12 +339,14 @@ Iets wat ik jammer vond dit vak was dat we met een grote groep gingen testen. He
 ## AANBEVELINGEN
 
 De functie beter laten werken met een screenreader. Ihab begreep het nu goed, maar hij is ook erg vaardig. Voor andere is dit misschien lastiger. 
-- Focus terugbrengen naar de tekst die voorgelezen wordt.
-- Als je een vraag hebt gesteld, dan focus terugbrengen naar de knoppen voor pauze en play (en/of duidelijke shortcuts)
+- Focus terugbrengen naar de tekst die voorgelezen wordt. >> heb ik aangepast, maar kan nog wel geperfectioneerd worden. Moet ook nog getest worden met NVDA screenreader bijvoorbeeld.
+- Als je een vraag hebt gesteld, dan focus terugbrengen naar de knoppen voor pauze en play (en/of duidelijke shortcuts) >> heb ik aangepast, maar kan nog wel geperfectioneerd worden. Moet ook nog getest worden met NVDA screenreader bijvoorbeeld.
 
 Pauze en play knop in 1 toggle, optie bieden om door- en terug te spoelen, optie bieden om snelheid van spreken aan te passen. >> dit heb ik voor het final prototype aangepast.
 
 Toevoegen van nonsense (ideeën hiervoor zijn benoemnd bij Reflectie > nonsense)
+
+Ik heb nu wel een aside navigatie toegevoegd voor het idee, maar deze brengen je niet naar andere pagina's. Dit kan verwarrend zijn. 
 
 
 ## BRONNENLIJST
