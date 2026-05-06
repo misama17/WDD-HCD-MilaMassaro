@@ -237,6 +237,51 @@ API.
 - Als je bijvoorbeeld bij de themes een aanpassing doet, dan moet de focus ook weer naar de tekst en de control buttons.
 - Shortcuts toevoegen voor audio controls.
 
+## ALLE AANTEKENINGEN TESTMOMENTEN
+
+link: https://www.notion.so/Testen-met-Ihab-3344a28d1c2c8098b59ad8e97de0a952?source=copy_link
+
+### Samenvattingen van belangrijkste inzichten
+
+**TEST 1**
+
+Bij veel websites hoeft hij niet echt een sfeer van de site te krijgen. Eigenlijk alleen bij websites waar je voor je plezier komt. Momenteel wordt de sfeer van een website niet echt overgebracht, omdat de stem van een screenreader heel eentonig is en bijvoorbeeld visuele elementen zoals plaatjes niet voldoende omschreven worden. Screenreader is ook text to speech, dus als er dan al een sfeer impressie wordt gegeven, dan is dit echt op basis van tekst (de manier van schrijven, woordgrappen etc.). Bij social media, zoals Instagram, zou hij wel graag een sfeer impressie willen krijgen. Dan is het niet zo zeer van de app of website zelf in zijn geheel, maar meer van de content. Dus als er een foto gepost wordt, dan zou het leuk zijn als hier bijvoorbeeld een goede omschrijving van is. Ook de caption kan relevant zijn. Omdat je op social media komt omdat je geïnteresseerd bent in iemands leven, is het nu jammer dat je eigenlijk totaal geen idee hebt wat er gepost wordt, welke sfeer etc. Hier zouden dan ook kansen kunnen liggen. Ook bij shoppen van kleding of producten zou een sfeerimpressie relevant kunnen zijn. Twee dingen die bijdragen aan het krijgen van een goed beeld (van de sfeer) van een website zijn lay-out en plaatjes. Onder lay-out vallen dingen als: kleur, lay-out tekst, bold etc, spreekt tekst op bepaalde manier naar je, visuele elementen, patronen, iconen… 
+
+Het is heel erg belangrijk dat (als je een extensie hebt bijv.) het on command is, zeker als je werkt met geluid; jij moet kunnen bepalen wanneer hij aan en uit gaat. Dit zodat het niet irritant of overprikkelend wordt, want je kan zelf bepalen, maar ook omdat het belangrijk is dat de screenreader te horen blijft wanneer de gebruiker dit wilt, anders wordt het een heel lastig verhaal.
+
+Een belangrijke vraag is echter wel wat “sfeer” is. Wat versta je onder sfeer? Sfeer is een abstract begrip, afhankelijk van de context en ook persoonsgebonden. Wat voor mij blij is, hoeft voor een ander niet per se zo te zijn. Hoe zorg je er dan voor dat de interpretatie klopt voor iedereen?
+
+
+
+**TEST 2**
+
+Uit de test blijkt dat “sfeer” voor blinden en slechtzienden niet uit één element komt, maar uit een combinatie van beschrijving, details en audio. Een goede ervaring vraagt om een balans tussen emotie en concrete informatie: niet te feitelijk, maar ook niet te abstract. Details zoals kleur, kleding, weer en omgeving zijn essentieel om een volledig beeld te vormen, terwijl de emotionele lading helpt om de sfeer echt te voelen.
+
+Audio speelt hierin een cruciale rol. De standaard eentonige screenreader is onvoldoende om sfeer over te brengen; toon, intonatie en ritme maken een groot verschil. Gebruikers geven de voorkeur aan natuurlijke, prettig luisterende stemmen en staan open voor meer persoonlijke of spraakbericht-achtige audio. Tegelijkertijd is controle belangrijk: audio moet altijd “on demand” zijn, zodat het niet storend wordt en de screenreader bruikbaar blijft.
+
+Daarnaast is er een duidelijk onderscheid nodig tussen korte, functionele alt-teksten en uitgebreidere, sfeervolle audio-uitleg. Op social media ligt de focus vooral op de sfeer van de content, niet van het platform zelf. Hier ligt een grote kans, omdat huidige oplossingen vooral feitelijk beschrijven en sfeer missen. Flexibiliteit, zoals kunnen kiezen tussen korte en uitgebreide beschrijvingen, zou belangrijk kunnen zijn.
+
+Gebruiksgemak is essentieel: extra stappen ten opzichte van bestaande platforms zoals Instagram moeten minimaal blijven. Ihab was vooral benieuwd hoe mijn idee samen zou gaan werken met Instagram zelf. Wordt dit een extensie? een nieuwe app? Een nieuwe app is niet handig, omdat mensen het dan niet echt gaan gebruiken. Ideaal zou zijn dat het aansluit op de huidige app van Instagram, mogelijk zelfs een instelling op Instagram die je zou kunnen instellen, waarnaar de app verandert. En dat ik dan een prototype maak voor deze instelling?
+
+Een app die handig voor mij zou kunnen zijn is “Be My Eyes”. Op deze app kan je hele feitelijke en uitgebreide omschrijvingen krijgen van foto’s.
+
+
+
+**TEST 3**
+
+Voor mijn concept is het belangrijkste dat de functie toegankelijk, duidelijk en waardevol in gebruik is voor blinden en slechtzienden. Uit de test blijkt dat Ihab het positief vindt dat hij zich kan verdiepen in een post via verschillende thema’s. Het is daarbij belangrijk om deze thema’s consistent te houden per post, zodat de structuur herkenbaar blijft. Dus niet per post verschillende thema’s om je in te verdiepen. Wel kan een extra optie, zoals een vraagveld voor specifieke details, helpen om de ervaring persoonlijker en flexibeler te maken en om meer in te kunnen gaan op details. Dus een inputfield erbij zou goed kunnen werken, zodat gebruikers er zo diep op in kunnen gaan als ze zelf willen. Zo krijgen zij ook meer controle over over de functie.
+
+De audio-ervaring speelt een centrale rol. Bij mijn test moment was het niet helemaal goed gegaan, waardoor een Nederlandse stem Engelse tekst ging voorlezen. Het was duidelijk dat dit, hoewel het grappig was, niet werkte uiteraard. De beschrijving moet goed te volgen zijn, met een fijne balans tussen feitelijke informatie en sfeer. De keuze van stem is hierin cruciaal; een onduidelijke of onaangename stem maakt de functie direct minder tot niet bruikbaar. Daarom is het belangrijk om gebruikers eventueel controle te geven over de stem (opties bieden) of om de tekst ook via hun eigen screenreader te laten beluisteren.
+
+Daarnaast moeten de audio-controls intuïtief en responsief zijn. Nu reageerde de knoppen soms wat traag. Hij zou graag duidelijke bediening willen, zoals een gecombineerde play/pause-knop, en extra opties zoals doorspoelen, snelheid aanpassen en sneltoetsen. Het prettigst is om zowel buttons als sneltoetsen te hebben. Tot slot laat de test zien dat de functie echt toegevoegde waarde biedt: hij voelde zich meer betrokken en gaf aan dat hij dit regelmatig zou gebruiken, mits het soepel en betrouwbaar werkt en voor elke post beschikbaar is.
+
+
+**TEST 4**
+
+Goed met een niet MacBook kijken of de stemmen werken, want ze deden het bij Ihab nu weer niet. Tijdens het testen van de nieuwe functie (indept) stelde hij best wel erg door, waar geen antwoord meer op was. Na afloop heb ik met Vasilis gesproken en hij zei dat ik dit niet helemaal hoef uit te werken, omdat het een om een concept en prototype gaat voor dit vak. 
+
+Alt + space voor play en pauze knop gebruiken, zodat het niet in de weg zit met inputfield. De play en pauze knop mag ook 1 knop worden (zoals eerder gezegd). Een geluidje bij liken etc kan leuk zijn om iets meer interactie toe te voegen. Misschien is het nog interessant om te kijken hoe ik meer interactie kan toevoegen: trillen bij scrollen, geluid of trilling bij liken of comment toevoegen.
+
 
 ## REFLECTIE
 
@@ -279,14 +324,23 @@ Mijn eerste prototype was eigenlijk een nonsense concept helemaal. Daarna heb ik
   Op Instagram (zeker op iemands telefoon) scroll je door je feed. Maar als je blind of slechtziend bent, dan krijg je natuurlijk niet de visuele cue mee van het scrollen. Misschien dat een trilling of iets die indicatie geeft dat je verder scrollt helpt zodat gebruikers dan weten hoe ver je scrollt etc.
 - **3D spatial audio**
   Voor blinden/slechtzienden is de uitleg een platte tekst en is er niet of nauwelijks indicatie van diepte. Misschien dat er diepte toegevoegd kan worden door spatial audio.
-  De "Sonar-Ping" (Echolocatie): Blinden gebruiken soms actieve echolocatie (klikken met de tong). Jij kunt dit in je interface bouwen → In plaats van dat de bot vertelt: "Er is veel diepte in deze foto", laat je de gebruiker die diepte *voelen* door middel van reflectie en tijd.
+  De "Sonar-Ping" (Echolocatie): Blinden gebruiken soms actieve echolocatie (klikken met de tong). In plaats van dat de bot vertelt: "Er is veel diepte in deze foto", laat je de gebruiker die diepte *voelen* door middel van reflectie en tijd.
   Als de gebruiker een knop “explore photo” indrukt, hoor je de ambience-audio (het stadion bijvoorbeeld) heel breed om je heen, maar de chatbot "loopt" als het ware door de foto heen terwijl hij vertelt wat hij ziet. Je hoort de stem van de bot dus van positie veranderen naarmate hij verschillende details bespreekt.
-
-
-
 
 
 
 ### REFLECTIE OP HET HELE VAK HCD
 
+Ik vond het voor dit vak heel erg leuk om research te doen en me in een vraagstuk te verdiepen. Ik hou ervan om over complexe en abstracte vraagstukken na te denken en ik vond het leuk dat ik dit hier kon doen en dan aan de hand daarvan een concept opzetten. Ik denk dat ik iemand ben die zich goed kan verplaatsen in andere, vooral omdat ik dit heel belangrijk vind in het leven. Dus ik doe ook graag extra moeite hiervoor. Deze karaktereigenschap van mij kwam goed van pas in dit blok. Bij mijn vorige minor (Immersive Environments) had ik ook een eindproject waarbij ik in de concept-fase me enorm moest verdiepen in de filosofie van paradox. Waar ik toen echt visueel aan de slag ging met mijn bevindingen, kon ik nu op een andere manier aan de slag hiermee. Ik vond het leuk om het op deze manier aan te pakken, zeker omdat ik een visueel ingesteld persoon ben. Het was wel even uit mijn comfortzone en een andere manier van denken. Dit maakt ook gelijk wat ik moeilijk vond aan dit vak. Juist omdat ik zo visueel ingesteld ben, vond ik het lastig om dat eigenlijk volledig los te laten. Uiteindelijk was het voor mijn project toch wel relevant om de lay-out van Instagram te gebruiken, waardoor ik me toch wel op het visuele aspect heb gefocust ook. Als ik nu terugkijk, had ik hier best wat minder aandacht aan kunnen besteden. 
 
+Iets wat ik jammer vond dit vak was dat we met een grote groep gingen testen. Het was heel fijn om feedback op andermans concepten te horen en om andere hun concepten te zien en inspiratie daaruit op te doen, maar ik voelde me ook enorm beperkt hierdoor. 2 uur met zijn 11en is niet heel veel tijd per persoon, waardoor ik soms nog vragen had tijdens het testen, maar deze niet meer kon stellen omwille van tijd. Ik wilde ook niet andermans tijd inpikken. Dus dit vond ik een beetje jammer.
+
+
+
+## BRONNENLIJST
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
+- https://medium.com/@dimterion/modals-with-html-dialog-element-in-javascript-and-react-fb23c885d62e
+- https://css-tricks.com/some-hands-on-with-the-html-dialog-element/
+- https://css-tricks.com/some-hands-on-with-the-html-dialog-element/
+- https://www.a11yproject.com/posts/how-to-hide-content/
+- https://codepen.io/Nano-AI/pen/JjzXyMg
