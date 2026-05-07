@@ -8,8 +8,8 @@
 
     <link rel="icon" type="image/svg+xml" href="./images/favicon.png">
 
-    <link href="./styles/thirdprototype.css" rel="stylesheet">
-    <script defer src="./scripts/thirdprototype.js"></script>
+    <link href="./styles/finalprototype.css" rel="stylesheet">
+    <script defer src="./scripts/finalprototype.js"></script>
 
     <title>HCD - InSound</title>
 </head>
@@ -240,9 +240,10 @@
             <p id="general-description">...</p>
 
             <div>
-                <button id="pause-button">Pause</button>
-                <button id="play-button">Play</button>
-                <button id="replay-button">Replay</button>
+                <button id="speed-slower" aria-label="Speed audio slower">Speed slower</button>
+                <button id="play-pause-button" aria-label="Play or pause audio">Pause</button>
+                <button id="replay-button" aria-label="Replay audio">Replay</button>
+                <button id="speed-faster" aria-label="Speed audio faster">Speed faster</button>
             </div>
 
             <section class="indept-themes">
@@ -253,7 +254,7 @@
             <section>
                 <h3>Ask an indept question about the image!</h3> 
                 <section class="chat-function">
-                    <div class="chat-window">
+                    <div class="chat-window" aria-live="polite">
                         <div class="message bot">
                             Hey! I analyzed the content of the post. Do you have specific questions?
                         </div>
