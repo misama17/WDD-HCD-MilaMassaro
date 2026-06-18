@@ -21,6 +21,10 @@
     --width-aside-open: 200px;
 }
 
+html {
+    background-color: var(--color-bg);
+}
+
 body {
     font-family: sans-serif;
     color: var(--color-text-one);
