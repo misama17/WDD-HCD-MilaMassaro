@@ -99,6 +99,10 @@ h1 {
     margin: 1em;
 }
 
+header {
+    background-color: var(--color-bg);
+}
+
 header nav {
     display: flex;
     justify-content: center;
